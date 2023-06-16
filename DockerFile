@@ -1,0 +1,7 @@
+FROM  pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
+WORKDIR /workspace
+COPY . .
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A4B469963BF863CC
+RUN apt-get update
+RUN apt-get install libcurl4-openssl-dev libssl-dev gcc python-dev libkrb5-dev unixodbc-dev libmpc-dev -y
+pip install --ignore-installed PyYAML==3.12 

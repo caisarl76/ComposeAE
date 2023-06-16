@@ -1,6 +1,6 @@
 alabaster==0.7.10
-anaconda-client==1.6.14
-anaconda-project==0.8.2
+git+https://github.com/Anaconda-Platform/anaconda-client.git@1.6.14
+git+https://github.com/Anaconda-Platform/anaconda-project.git@v0.8.3
 asn1crypto==0.24.0
 astroid==1.6.3
 astropy==3.0.2
@@ -14,7 +14,7 @@ beautifulsoup4==4.6.0
 bert-serving-client==1.10.0
 bitarray==0.8.1
 bkcharts==0.2
-blaze==0.11.3
+git+https://github.com/blaze/blaze.git@0.11.3
 bleach==2.1.3
 blis==0.2.4
 bokeh==1.0.4
@@ -28,7 +28,7 @@ cffi==1.11.5
 chardet==3.0.4
 click==6.7
 cloudpickle==0.5.3
-clyent==1.2.2
+git+https://github.com/anaconda-graveyard/clyent.git@1.2.2
 colorama==0.3.9
 contextlib2==0.5.5
 cryptography==2.7
@@ -38,7 +38,7 @@ Cython==0.28.2
 cytoolz==0.9.0.1
 dask==0.17.5
 dataclasses==0.6
-datashape==0.5.4
+git+https://github.com/blaze/datashape.git@0.5.4
 decorator==4.3.0
 defusedxml==0.6.0
 distributed==1.21.8
@@ -92,7 +92,7 @@ jupyterlab==0.32.1
 jupyterlab-launcher==0.10.5
 kiwisolver==1.0.1
 lazy-object-proxy==1.3.1
-llvmlite==0.23.1
+git+https://github.com/numba/llvmlite.git@v0.23.1
 locket==0.2.0
 lxml==4.2.1
 MarkupSafe==1.0
@@ -100,7 +100,7 @@ matplotlib==3.0.3
 mccabe==0.6.1
 mistune==0.8.3
 mkl-fft==1.0.14
-mkl-random==1.1.0
+git+https://github.com/IntelPython/mkl_random.git@v1.1.1
 mkl-service==2.3.0
 mock==3.0.5
 more-itertools==4.1.0
@@ -109,8 +109,8 @@ msgpack==0.6.0
 msgpack-python==0.5.6
 multipledispatch==0.5.0
 murmurhash==1.0.2
-nb-conda==2.2.1
-nb-conda-kernels==2.2.2
+git+https://github.com/Anaconda-Platform/nb_conda.git@2.2.1
+git+https://github.com/Anaconda-Platform/nb_conda_kernels.git@2.2.2
 nbconvert==5.4.1
 nbformat==4.4.0
 networkx==2.1
@@ -121,7 +121,7 @@ numba==0.38.0
 numexpr==2.7.0
 numpy==1.16.4
 numpydoc==0.8.0
-odo==0.5.1
+git+https://github.com/blaze/odo.git@0.5.1
 olefile==0.45.1
 onnx==1.5.0
 openpyxl==2.5.3
@@ -175,11 +175,11 @@ pytest-doctestplus==0.1.3
 pytest-openfiles==0.3.0
 pytest-remotedata==0.2.1
 python-dateutil==2.7.3
-pytorch-fast-elmo==0.6.12
-pytorch-stateful-lstm==1.6.0
+
+pytorch-fast-elmo
+pytorch-stateful-lstm
 pytz==2018.4
 PyWavelets==1.1.1
-PyYAML==3.12
 pyzmq==19.0.1
 QtAwesome==0.4.4
 qtconsole==4.3.1
